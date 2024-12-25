@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359044198557",
+    "project_id": "bitetime-f237a",
+    "storage_bucket": "bitetime-f237a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359044198557:android:35b8aa4e5aad13f1b96474",
+        "android_client_info": {
+          "package_name": "com.example.bitetime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABtsr0m9mt6fHSvF2bXGm3s7RI9vTXx2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

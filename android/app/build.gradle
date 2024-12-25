@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+    id 'com.google.gms.google-services'  // For Firebase, if used
+}
+
+android {
+    namespace = "com.example.bitetime"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.bitetime"  // Make sure this matches your package name
+        minSdkVersion 21
+        targetSdkVersion 33  // Or another version you prefer
+        versionCode flutter.versionCode
+        versionName flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug  // Update this for your release signing config
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
